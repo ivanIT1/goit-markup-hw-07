@@ -39,9 +39,7 @@ img {
   transition: color 250ms var(--time-function);
 }
 /* Header */
-.header__border {
-  border-bottom: 1px solid #ececec;
-}
+
 .header-container {
   display: flex;
 }
@@ -56,7 +54,7 @@ img {
   text-decoration: none;
   letter-spacing: 0.03em;
 }
-.header__logo {
+.logo__header {
   display: block;
   padding: 24px 0;
   color: var(--basic-coller);
@@ -677,7 +675,7 @@ img {
   opacity: 0; /* прозрачность */
   pointer-events: none; /* пропускать клик */
 }
-.backdrop.is-hidden .modal {
+.backdrop--is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
 
