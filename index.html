@@ -19,9 +19,9 @@
   <body>
     <!--Header-->
     <header class="header">
-      <div class="container header-container">
+      <div class="container header__container">
         <a class="logo header__logo" href="index.html"
-          ><span class="logo__text">Web</span>Studio</a
+          >Web<span class="logo__black">Studio</span></a
         >
         <nav class="navigate">
           <ul class="navigate__list">
@@ -65,7 +65,7 @@
     <main>
       <!--information block-->
       <section class="hero overlay">
-        <div class="hero__container">
+        <div class="container">
           <h1 class="hero__title">
             Эффективные решения <br />
             для вашего бизнеса
@@ -76,9 +76,11 @@
         </div>
       </section>
 
-      <section class="section section-information">
+      <section class="section">
         <div class="container">
-          <h2 class="section-information__title">Наши приимущества</h2>
+          <h2 class="section__title section__title--hiden">
+            Наши приимущества
+          </h2>
           <ul class="benefits">
             <li class="benefits__item">
               <div class="benefits__container">
@@ -88,7 +90,7 @@
               </div>
 
               <h3 class="benefits__title">Внимание к деталям</h3>
-              <p class="benefits__discription">
+              <p class="benefits__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
@@ -101,7 +103,7 @@
               </div>
 
               <h3 class="benefits__title">Пунктуальность</h3>
-              <p class="benefits__discription">
+              <p class="benefits__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
@@ -114,7 +116,7 @@
               </div>
 
               <h3 class="benefits__title">Планирование</h3>
-              <p class="benefits__discription">
+              <p class="benefits__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
@@ -127,7 +129,7 @@
               </div>
 
               <h3 class="benefits__title">Современные технологии</h3>
-              <p class="benefits__discription">
+              <p class="benefits__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -136,10 +138,10 @@
         </div>
       </section>
       <!--Work-->
-      <section class="occupation-section section">
+      <section class="section section--no--pading__top">
         <div class="container">
-          <h2 class="occupation__title">Чем мы занимаемся</h2>
-          <ul class="occupation__list">
+          <h2 class="section__title">Чем мы занимаемся</h2>
+          <ul class="occupation">
             <li class="occupation__item">
               <img class="image" src="images/kod.jpg" width="370" alt="kod" />
               <p class="occupation__description">Десктопные приложения</p>
@@ -166,11 +168,11 @@
         </div>
       </section>
       <!--team-->
-      <section class="team section">
+      <section class="section section--other__backgraund">
         <div class="container">
-          <h2 class="team__title">Наша команда</h2>
-          <ul class="team__list">
-            <li class="team__card">
+          <h2 class="section__title">Наша команда</h2>
+          <ul class="team">
+            <li class="team__item">
               <img
                 class="team__image"
                 src="images/Igor.jpg"
@@ -178,8 +180,8 @@
                 alt="Igor"
               />
               <div class="team__meta">
-                <h3 class="team__name">Игорь Демьяненко</h3>
-                <p class="team__profession">Product Designer</p>
+                <h3 class="team__title">Игорь Демьяненко</h3>
+                <p class="team__text">Product Designer</p>
                 <ul class="social-network">
                   <li class="social-network__item">
                     <a
@@ -222,7 +224,7 @@
               </div>
             </li>
 
-            <li class="team__card">
+            <li class="team__item">
               <img
                 class="team-image"
                 src="images/olga.jpg"
@@ -230,8 +232,8 @@
                 alt="Olga"
               />
               <div class="team__meta">
-                <h3 class="team__name">Ольга Репина</h3>
-                <p class="team__profession">Frontend Developer</p>
+                <h3 class="team__title">Ольга Репина</h3>
+                <p class="team__text">Frontend Developer</p>
                 <ul class="social-network">
                   <li class="social-network__item">
                     <a
@@ -270,7 +272,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team__card">
+            <li class="team__item">
               <img
                 class="team__image"
                 src="images/nikolay.jpg"
@@ -278,8 +280,8 @@
                 alt="Nikolay"
               />
               <div class="team__meta">
-                <h3 class="team__name">Николай Тарасов</h3>
-                <p class="team__profession">Marketing</p>
+                <h3 class="team__title">Николай Тарасов</h3>
+                <p class="team__text">Marketing</p>
                 <ul class="social-network">
                   <li class="social-network__item">
                     <a
@@ -318,7 +320,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team__card">
+            <li class="team__item">
               <img
                 class="team__image"
                 src="images/mihail.jpg"
@@ -326,8 +328,8 @@
                 alt="Mihail"
               />
               <div class="team__meta">
-                <h3 class="team__name">Михаил Ермаков</h3>
-                <p class="team__profession">UI Designer</p>
+                <h3 class="team__title">Михаил Ермаков</h3>
+                <p class="team__text">UI Designer</p>
                 <ul class="social-network">
                   <li class="social-network__item">
                     <a
@@ -369,10 +371,10 @@
           </ul>
         </div>
       </section>
-      <section class="client section">
+      <section class="section">
         <div class="container">
-          <h2 class="client__title">Постоянные клиенты</h2>
-          <ul class="client__list">
+          <h2 class="section__title">Постоянные клиенты</h2>
+          <ul class="client">
             <li class="client__item">
               <a class="client__link" href="/"
                 ><svg class="client__icon" width="106" height="60">
@@ -421,10 +423,10 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-      <div class="container container-footer">
+      <div class="container container__footer">
         <div class="address-block">
-          <a class="logo footer__logo" href="index.html"
-            ><span class="logo__text logo__text--transform">Web</span>Studio</a
+          <a class="logo" href="index.html"
+            >Web<span class="logo__white">Studio</span></a
           >
           <address class="address">
             <ul class="address__list">
