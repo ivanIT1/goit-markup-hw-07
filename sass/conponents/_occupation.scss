@@ -1,8 +1,8 @@
-.occupation-section {
+.section--no--pading__top {
   padding-top: 0;
 }
 
-.occupation__list {
+.occupation {
   display: flex;
 }
 .occupation__description {
@@ -30,7 +30,7 @@
   }
 }
 
-.occupation__title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
