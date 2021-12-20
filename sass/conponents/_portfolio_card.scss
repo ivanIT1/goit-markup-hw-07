@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.card-wrapper {
+.card-thumb {
   border: 1px solid #eeeeee;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -37,7 +37,7 @@
   overflow: hidden; /* скрыто */
 }
 
-.project__description {
+.project__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -53,12 +53,12 @@
   transition: transform $transition-duration $time-function;
   background: rgba(33, 150, 243, 0.9);
 }
-.project__link:hover .project__description,
-.project__link:focus .project__description {
+.project__link:hover .project__overlay,
+.project__link:focus .project__overlay {
   transform: translateY(0);
 }
 
-.project__name {
+.project__title {
   display: flex;
   font-weight: 700;
   font-size: 18px;
@@ -67,7 +67,7 @@
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
-.project__type {
+.project__text {
   font-size: 16px;
   line-height: 1.85;
   color: $description-collor;
